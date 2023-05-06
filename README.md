@@ -1,16 +1,22 @@
-# task_one_project
+# DailyStride
 
-A new Flutter project.
+A Flutter project that manages a User's task and Todo for a given time.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+* Allows you to Add task and manage your task with given deadline to keep up you up to track.
+* Allows you to automatically delete a task immidiately after completion.
 
-A few resources to get you started if this is your first Flutter project:
+ ## Folder Architecture
+ * Constants -  This Folder contains all the app Constants like app name, app version, app colors, so as to ensure easy maintainance.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ * Models - This Folder contains the data Model For the Task and for user authentication(would be in the next version).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ * Presentation - This Folder contains all the various Screens found in the app, from splash screen to the home screen, etc.
+
+ * Services - this contains all the services or features the app contains From all the demo implementation to authentication service ETC.
+
+ * Utils  -  This Folder contains all the minor code snipets for handling dialog message for error success.
+
+ * Widgets - This contains all the reusable widgets from custom TextFields, Buttons, Containers, Cards and many more.
+ 
